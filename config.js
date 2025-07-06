@@ -3,8 +3,8 @@ const { existsSync } = require('fs')
 if (existsSync('config.env')) require('dotenv').config({ path: './config.env' })
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || 'kord_ai-Hxf30jQMSR0eoiqR',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "+2347045096284",
+    SESSION_ID: process.env.SESSION_ID || 'kord_ai-DARfn4ZEcDEvCXBZ',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "+2348104029966",
     WORKTYPE: process.env.WORKTYPE || "private",
     PREFIX: process.env.PREFIX || "[.]",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || true,
@@ -21,8 +21,8 @@ module.exports = {
     BOT_PRESENCE: process.env.BOT_PRESENCE || "available", // for online, "composing" for typing 
     REACT: process.env.REACT || false,
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
-    OWNER_NAME: process.env.OWNER_NAME || "DELORD",
-    BOT_NAME: process.env.BOT_NAME || "LORDBOT",
+    OWNER_NAME: process.env.OWNER_NAME || "CYBER",
+    BOT_NAME: process.env.BOT_NAME || "CYBERBOT",
     RENDER_API_KEY: process.env.RENDER_API_KEY,
     ANTIDELETE: process.env.ANTIDELETE || "on",
     ANTIDELETE_INCHAT: process.env.ANTIDELETE_INCHAT || "off",
