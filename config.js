@@ -21,8 +21,8 @@ module.exports = {
     BOT_PRESENCE: process.env.BOT_PRESENCE || "available", // for online, "composing" for typing 
     REACT: process.env.REACT || false,
     READ_MESSAGE: process.env.READ_MESSAGE || "false",
-    OWNER_NAME: process.env.OWNER_NAME || "DE LORD",
-    BOT_NAME: process.env.BOT_NAME || "LORD BOT",
+    OWNER_NAME: process.env.OWNER_NAME || "DELORD",
+    BOT_NAME: process.env.BOT_NAME || "LORDBOT",
     RENDER_API_KEY: process.env.RENDER_API_KEY,
     ANTIDELETE: process.env.ANTIDELETE || "on",
     ANTIDELETE_INCHAT: process.env.ANTIDELETE_INCHAT || "off",
